@@ -1,0 +1,41 @@
+{
+	"_id": 1001,
+	"customerID": 5432,
+	"orderDate": "2024-03-15",
+	"shippingAddress": "123 Main St, City, Country",
+	"status": "Delivered",
+	"items": [
+		{
+			"productID": 101,
+			"quantity": 2,
+			"unitPrice": 29.99
+		},
+		{
+			"productID": 102,
+			"quantity": 1,
+			"unitPrice": 49.99
+		}
+	],
+	"statusHistory": [
+		{
+			"status": "Pending",
+			"updateDate": "2024-03-15T10:00:00",
+			"updatedBy": "System"
+		},
+		{
+			"status": "Processing",
+			"updateDate": "2024-03-15T10:30:00",
+			"updatedBy": "John"
+		},
+		{
+			"status": "Shipped",
+			"updateDate": "2024-03-16T09:00:00",
+			"updatedBy": "Mary"
+		},
+		{
+			"status": "Delivered",
+			"updateDate": "2024-03-17T14:00:00",
+			"updatedBy": "Courier"
+		}
+	]
+}
