@@ -12,7 +12,8 @@
 				"mongodb.mongodb-vscode",
 				"ms-toolsai.jupyter",
 				"ms-toolsai.jupyter-keymap",
-				"ms-toolsai.jupyter-renderers"
+				"ms-toolsai.jupyter-renderers",
+				"bierner.github-markdown-preview"
 			],
 			"settings": {
 				"python.defaultInterpreterPath": "/usr/local/bin/python",
